@@ -1,7 +1,7 @@
 // toggle & Responsive Navigation
 const navSlide = () => {
     const burger = document.querySelector(".burger");
-    const navList = documenr.querySelector("nav");
+    const navList = document.querySelector("nav");
 
     burger.addEventListener("click", () => {
         navList.classList.toggle("nav-active");
